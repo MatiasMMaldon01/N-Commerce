@@ -1,0 +1,46 @@
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Aplicacion\bin\Debug\Aplicacion.dll.config
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Aplicacion\bin\Debug\Aplicacion.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Aplicacion\bin\Debug\Aplicacion.pdb
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Aplicacion\bin\Debug\EntityFramework.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Aplicacion\bin\Debug\EntityFramework.SqlServer.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Aplicacion\bin\Debug\EntityFramework.xml
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Aplicacion\bin\Debug\EntityFramework.SqlServer.xml
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Aplicacion\obj\Debug\Aplicacion.csprojAssemblyReference.cache
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Aplicacion\obj\Debug\Aplicacion.csproj.CoreCompileInputs.cache
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Aplicacion\obj\Debug\Aplicacion.csproj.CopyComplete
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Aplicacion\obj\Debug\Aplicacion.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Aplicacion\obj\Debug\Aplicacion.pdb
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Aplicacion\bin\Debug\Aplicacion.dll.config
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Aplicacion\bin\Debug\Aplicacion.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Aplicacion\bin\Debug\Aplicacion.pdb
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Aplicacion\bin\Debug\EntityFramework.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Aplicacion\bin\Debug\EntityFramework.SqlServer.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Aplicacion\bin\Debug\EntityFramework.xml
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Aplicacion\bin\Debug\EntityFramework.SqlServer.xml
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Aplicacion\obj\Debug\Aplicacion.csprojAssemblyReference.cache
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Aplicacion\obj\Debug\Aplicacion.csproj.CoreCompileInputs.cache
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Aplicacion\obj\Debug\Aplicacion.csproj.CopyComplete
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Aplicacion\obj\Debug\Aplicacion.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Aplicacion\obj\Debug\Aplicacion.pdb
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Aplicacion\bin\Debug\Aplicacion.dll.config
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Aplicacion\bin\Debug\Aplicacion.dll
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Aplicacion\bin\Debug\Aplicacion.pdb
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Aplicacion\bin\Debug\EntityFramework.dll
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Aplicacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Aplicacion\bin\Debug\EntityFramework.xml
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Aplicacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Aplicacion\obj\Debug\Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Aplicacion\obj\Debug\Aplicacion.csproj.CopyComplete
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Aplicacion\obj\Debug\Aplicacion.dll
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Aplicacion\obj\Debug\Aplicacion.pdb
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Aplicacion\bin\Debug\Aplicacion.dll.config
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Aplicacion\bin\Debug\Aplicacion.dll
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Aplicacion\bin\Debug\Aplicacion.pdb
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Aplicacion\bin\Debug\EntityFramework.dll
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Aplicacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Aplicacion\bin\Debug\EntityFramework.xml
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Aplicacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Aplicacion\obj\Debug\Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Aplicacion\obj\Debug\Aplicacion.csproj.CopyComplete
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Aplicacion\obj\Debug\Aplicacion.dll
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Aplicacion\obj\Debug\Aplicacion.pdb

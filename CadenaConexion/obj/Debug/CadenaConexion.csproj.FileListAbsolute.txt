@@ -1,0 +1,6 @@
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\CadenaConexion\bin\Debug\CadenaConexion.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\CadenaConexion\bin\Debug\CadenaConexion.pdb
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\CadenaConexion\obj\Debug\CadenaConexion.csprojAssemblyReference.cache
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\CadenaConexion\obj\Debug\CadenaConexion.csproj.CoreCompileInputs.cache
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\CadenaConexion\obj\Debug\CadenaConexion.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\CadenaConexion\obj\Debug\CadenaConexion.pdb

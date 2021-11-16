@@ -1,0 +1,54 @@
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Dominio\bin\Debug\Dominio.dll.config
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Dominio\bin\Debug\Dominio.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Dominio\bin\Debug\Dominio.pdb
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Dominio\bin\Debug\EntityFramework.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Dominio\bin\Debug\EntityFramework.SqlServer.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Dominio\bin\Debug\EntityFramework.xml
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Dominio\bin\Debug\EntityFramework.SqlServer.xml
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Dominio\obj\Debug\Dominio.csproj.CopyComplete
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Dominio\obj\Debug\Dominio.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 4\N-Commerce\Dominio\obj\Debug\Dominio.pdb
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Dominio\bin\Debug\Dominio.dll.config
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Dominio\bin\Debug\Dominio.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Dominio\bin\Debug\Dominio.pdb
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Dominio\bin\Debug\Aplicacion.Constantes.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Dominio\bin\Debug\EntityFramework.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Dominio\bin\Debug\EntityFramework.SqlServer.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Dominio\bin\Debug\Aplicacion.Constantes.pdb
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Dominio\bin\Debug\EntityFramework.xml
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Dominio\bin\Debug\EntityFramework.SqlServer.xml
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Dominio\obj\Debug\Dominio.csproj.CopyComplete
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Dominio\obj\Debug\Dominio.dll
+E:\Tecnicatura 2020\Laboratorio 2\Comision 2\N-Commerce\Dominio\obj\Debug\Dominio.pdb
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Dominio\bin\Debug\Dominio.dll.config
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Dominio\bin\Debug\Dominio.dll
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Dominio\bin\Debug\Dominio.pdb
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Dominio\bin\Debug\Aplicacion.Constantes.dll
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Dominio\bin\Debug\EntityFramework.dll
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Dominio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Dominio\bin\Debug\Aplicacion.Constantes.pdb
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Dominio\bin\Debug\EntityFramework.xml
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Dominio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Dominio\obj\Debug\Dominio.csproj.CopyComplete
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Dominio\obj\Debug\Dominio.dll
+C:\Users\matia\Desktop\Laboratorio II\N-Commerce\Dominio\obj\Debug\Dominio.pdb
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Dominio\bin\Debug\Dominio.dll.config
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Dominio\bin\Debug\Dominio.dll
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Dominio\bin\Debug\Dominio.pdb
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Dominio\bin\Debug\Aplicacion.Constantes.dll
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Dominio\bin\Debug\EntityFramework.dll
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Dominio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Dominio\bin\Debug\Aplicacion.Constantes.pdb
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Dominio\bin\Debug\EntityFramework.xml
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Dominio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Dominio\obj\Debug\Dominio.csproj.CopyComplete
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Dominio\obj\Debug\Dominio.dll
+C:\Users\matia\Desktop\Programacion\Laboratorio II\N-Commerce\Dominio\obj\Debug\Dominio.pdb

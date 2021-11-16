@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7A1EF938-26CA-485B-ADC5-1DE95BD00EC8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dominio</RootNamespace>
+    <AssemblyName>Dominio</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entidades\Articulo.cs" />
+    <Compile Include="Entidades\BajaArticulo.cs" />
+    <Compile Include="Entidades\Banco.cs" />
+    <Compile Include="Entidades\Caja.cs" />
+    <Compile Include="Entidades\Cheque.cs" />
+    <Compile Include="Entidades\Cliente.cs" />
+    <Compile Include="Entidades\Compra.cs" />
+    <Compile Include="Entidades\Comprobante.cs" />
+    <Compile Include="Entidades\ConceptoGasto.cs" />
+    <Compile Include="Entidades\CondicionIva.cs" />
+    <Compile Include="Entidades\Configuracion.cs" />
+    <Compile Include="Entidades\Contador.cs" />
+    <Compile Include="Entidades\CuentaBancaria.cs" />
+    <Compile Include="Entidades\CuentaCorrienteCliente.cs" />
+    <Compile Include="Entidades\CuentaCorrienteProveedor.cs" />
+    <Compile Include="Entidades\Departamento.cs" />
+    <Compile Include="Entidades\Deposito.cs" />
+    <Compile Include="Entidades\DepositoCheque.cs" />
+    <Compile Include="Entidades\DetalleCaja.cs" />
+    <Compile Include="Entidades\DetalleComprobante.cs" />
+    <Compile Include="Entidades\Empleado.cs" />
+    <Compile Include="Entidades\EntidadBase.cs" />
+    <Compile Include="Entidades\Factura.cs" />
+    <Compile Include="Entidades\FormaPago.cs" />
+    <Compile Include="Entidades\FormaPagoCheque.cs" />
+    <Compile Include="Entidades\FormaPagoCtaCte.cs" />
+    <Compile Include="Entidades\FormaPagoTarjeta.cs" />
+    <Compile Include="Entidades\Gasto.cs" />
+    <Compile Include="Entidades\Iva.cs" />
+    <Compile Include="Entidades\ListaPrecio.cs" />
+    <Compile Include="Entidades\Localidad.cs" />
+    <Compile Include="Entidades\Marca.cs" />
+    <Compile Include="Entidades\MotivoBaja.cs" />
+    <Compile Include="Entidades\Movimiento.cs" />
+    <Compile Include="Entidades\MovimientoCuentaCorriente.cs" />
+    <Compile Include="Entidades\MovimientoCuentaCorrienteProveedor.cs" />
+    <Compile Include="Entidades\NotaCredito.cs" />
+    <Compile Include="Entidades\Persona.cs" />
+    <Compile Include="Entidades\Precio.cs" />
+    <Compile Include="Entidades\Presupuesto.cs" />
+    <Compile Include="Entidades\Proveedor.cs" />
+    <Compile Include="Entidades\Provincia.cs" />
+    <Compile Include="Entidades\PuestoTrabajo.cs" />
+    <Compile Include="Entidades\Remito.cs" />
+    <Compile Include="Entidades\Rubro.cs" />
+    <Compile Include="Entidades\Stock.cs" />
+    <Compile Include="Entidades\Tarjeta.cs" />
+    <Compile Include="Entidades\UnidadMedida.cs" />
+    <Compile Include="Entidades\Usuario.cs" />
+    <Compile Include="MetaData\IArticulo.cs" />
+    <Compile Include="MetaData\IBajaArticulo.cs" />
+    <Compile Include="MetaData\IBanco.cs" />
+    <Compile Include="MetaData\ICaja.cs" />
+    <Compile Include="MetaData\ICheque.cs" />
+    <Compile Include="MetaData\ICliente.cs" />
+    <Compile Include="MetaData\ICompra.cs" />
+    <Compile Include="MetaData\IComprobante.cs" />
+    <Compile Include="MetaData\IConceptoGasto.cs" />
+    <Compile Include="MetaData\ICondicionIva.cs" />
+    <Compile Include="MetaData\IConfiguracion.cs" />
+    <Compile Include="MetaData\IContador.cs" />
+    <Compile Include="MetaData\ICuentaBancaria.cs" />
+    <Compile Include="MetaData\ICuentaCorrienteCliente.cs" />
+    <Compile Include="MetaData\ICuentaCorrienteProveedor.cs" />
+    <Compile Include="MetaData\IDepartamento.cs" />
+    <Compile Include="MetaData\IDeposito.cs" />
+    <Compile Include="MetaData\IDepositoCheque.cs" />
+    <Compile Include="MetaData\IDetalleCaja.cs" />
+    <Compile Include="MetaData\IDetalleComprobante.cs" />
+    <Compile Include="MetaData\IEmpleado.cs" />
+    <Compile Include="MetaData\IFactura.cs" />
+    <Compile Include="MetaData\IFormaPago.cs" />
+    <Compile Include="MetaData\IFormaPagoCheque.cs" />
+    <Compile Include="MetaData\IFormaPagoCtaCte.cs" />
+    <Compile Include="MetaData\IFormaPagoTarjeta.cs" />
+    <Compile Include="MetaData\IGasto.cs" />
+    <Compile Include="MetaData\IIva.cs" />
+    <Compile Include="MetaData\IListaPrecio.cs" />
+    <Compile Include="MetaData\ILocalidad.cs" />
+    <Compile Include="MetaData\IMarca.cs" />
+    <Compile Include="MetaData\IMotivoBaja.cs" />
+    <Compile Include="MetaData\IMovimiento.cs" />
+    <Compile Include="MetaData\IMovimientoCuentaCorriente.cs" />
+    <Compile Include="MetaData\IMovimientoCuentaCorrienteProveedor.cs" />
+    <Compile Include="MetaData\INotaCredito.cs" />
+    <Compile Include="MetaData\IPersona.cs" />
+    <Compile Include="MetaData\IPrecio.cs" />
+    <Compile Include="MetaData\IPresupuesto.cs" />
+    <Compile Include="MetaData\IProveedor.cs" />
+    <Compile Include="MetaData\IProvincia.cs" />
+    <Compile Include="MetaData\IPuestoTrabajo.cs" />
+    <Compile Include="MetaData\IRemito.cs" />
+    <Compile Include="MetaData\IRubro.cs" />
+    <Compile Include="MetaData\IStock.cs" />
+    <Compile Include="MetaData\ITarjeta.cs" />
+    <Compile Include="MetaData\IUnidadMedida.cs" />
+    <Compile Include="MetaData\IUsuario.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorio\IClienteRepositorio.cs" />
+    <Compile Include="Repositorio\ICtaCteClienteComprobanteRepositorio.cs" />
+    <Compile Include="Repositorio\ICuentaCorrienteRepositorio.cs" />
+    <Compile Include="Repositorio\IEmpleadoRepositorio.cs" />
+    <Compile Include="Repositorio\IFacturaRepositorio.cs" />
+    <Compile Include="Repositorio\IRepositorio.cs" />
+    <Compile Include="UnidadDeTrabajo\IUnidadDeTrabajo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aplicacion.Constantes\Aplicacion.Constantes.csproj">
+      <Project>{d4dd37cf-e0ab-4ae0-bec0-2074304c821b}</Project>
+      <Name>Aplicacion.Constantes</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

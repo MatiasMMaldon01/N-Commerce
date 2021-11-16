@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F291B0F-50F0-4223-A5F4-FDC4CFEA30AA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IServicios</RootNamespace>
+    <AssemblyName>IServicios</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActualizarPrecio\IActualizarPrecioServicio.cs" />
+    <Compile Include="Articulo\DTOs\ArticuloCompraDto.cs" />
+    <Compile Include="Articulo\DTOs\ArticuloCrudDto.cs" />
+    <Compile Include="Articulo\DTOs\ArticuloDto.cs" />
+    <Compile Include="Articulo\DTOs\ArticuloVentaDto.cs" />
+    <Compile Include="Articulo\DTOs\PreciosDto.cs" />
+    <Compile Include="Articulo\DTOs\StockDepositoDto.cs" />
+    <Compile Include="Articulo\IArticuloServicio.cs" />
+    <Compile Include="BajaArticulo\DTOs\BajaArticuloDto.cs" />
+    <Compile Include="BajaArticulo\IBajaArticuloServicio.cs" />
+    <Compile Include="Banco\DTOs\BancoDto.cs" />
+    <Compile Include="Banco\IBancoServicio.cs" />
+    <Compile Include="BaseDto\DtoBase.cs" />
+    <Compile Include="Base\IServicio.cs" />
+    <Compile Include="Base\IServicioAbm.cs" />
+    <Compile Include="Base\IServicioConsulta.cs" />
+    <Compile Include="Caja\DTOs\CajaDetalleDto.cs" />
+    <Compile Include="Caja\DTOs\CajaDto.cs" />
+    <Compile Include="Caja\DTOs\ComprobanteDeCajaDto.cs" />
+    <Compile Include="Caja\ICajaServicio.cs" />
+    <Compile Include="Compras\DTOs\CompraDto.cs" />
+    <Compile Include="Compras\DTOs\DetalleCompraDto.cs" />
+    <Compile Include="Compras\ICompraServicio.cs" />
+    <Compile Include="Comprobante\DTOs\ComprobanteDto.cs" />
+    <Compile Include="Comprobante\DTOs\ComprobantesPendientesDto.cs" />
+    <Compile Include="Comprobante\DTOs\CtaCteComprobanteDto.cs" />
+    <Compile Include="Comprobante\DTOs\DetalleComprobanteDto.cs" />
+    <Compile Include="Comprobante\DTOs\DetallePendienteDto.cs" />
+    <Compile Include="Comprobante\DTOs\FacturaDto.cs" />
+    <Compile Include="Comprobante\DTOs\FormaPagoChequeDto.cs" />
+    <Compile Include="Comprobante\DTOs\FormaPagoCtaCteDto.cs" />
+    <Compile Include="Comprobante\DTOs\FormaPagoDto.cs" />
+    <Compile Include="Comprobante\DTOs\FormaPagoTarjetaDto.cs" />
+    <Compile Include="Comprobante\IComprobanteServicio.cs" />
+    <Compile Include="Comprobante\ICtaCteComprobanteServicio.cs" />
+    <Compile Include="Comprobante\IFacturaServicio.cs" />
+    <Compile Include="CondicionIva\DTOs\CondicionIvaDto.cs" />
+    <Compile Include="CondicionIva\ICondicionIvaServicio.cs" />
+    <Compile Include="Configuracion\DTOs\ConfiguracionDto.cs" />
+    <Compile Include="Configuracion\IConfiguracionServicio.cs" />
+    <Compile Include="Contador\IContadorServicio.cs" />
+    <Compile Include="CuentaCorriente\DTOs\CuentaCorrienteDto.cs" />
+    <Compile Include="CuentaCorriente\ICuentaCorrienteServicio.cs" />
+    <Compile Include="Departamento\DTOs\DepartamentoCrudDto.cs" />
+    <Compile Include="Departamento\DTOs\DepartamentoDto.cs" />
+    <Compile Include="Departamento\IDepartamentoServicio.cs" />
+    <Compile Include="Deposito\DTOs\DepositoDto.cs" />
+    <Compile Include="Deposito\IDepositoSevicio.cs" />
+    <Compile Include="Iva\DTOs\IvaDto.cs" />
+    <Compile Include="Iva\IIvaServicio.cs" />
+    <Compile Include="ListaPrecio\DTOs\ListaPrecioDto.cs" />
+    <Compile Include="ListaPrecio\IListaPrecioServicio.cs" />
+    <Compile Include="Localidad\DTOs\LocalidadCrudDto.cs" />
+    <Compile Include="Localidad\DTOs\LocalidadDto.cs" />
+    <Compile Include="Localidad\ILocalidadServicio.cs" />
+    <Compile Include="Marca\DTOs\MarcaDto.cs" />
+    <Compile Include="Marca\IMarcaServicio.cs" />
+    <Compile Include="MotivoBaja\DTOs\MotivoBajaDto.cs" />
+    <Compile Include="MotivoBaja\IMotivoBajaServicio.cs" />
+    <Compile Include="Persona\DTOs\ClienteDto.cs" />
+    <Compile Include="Persona\DTOs\EmpleadoDto.cs" />
+    <Compile Include="Persona\DTOs\PersonaDto.cs" />
+    <Compile Include="Persona\IClienteServicio.cs" />
+    <Compile Include="Persona\IEmpleadoServicio.cs" />
+    <Compile Include="Persona\IPersonaServicio.cs" />
+    <Compile Include="Precios\PreciosDto.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedor\DTOs\ProveedorDto.cs" />
+    <Compile Include="Proveedor\IProveedorServicio.cs" />
+    <Compile Include="Provincia\DTOs\ProvinciaDto.cs" />
+    <Compile Include="Provincia\IProvinciaServicio.cs" />
+    <Compile Include="PuestoTrabajo\DTOs\PuestoTrabajoDto.cs" />
+    <Compile Include="PuestoTrabajo\IPuestoTrabajoServicio.cs" />
+    <Compile Include="Rubro\DTOs\RubroDto.cs" />
+    <Compile Include="Rubro\IRubroServicio.cs" />
+    <Compile Include="Seguridad\ISeguridadServicio.cs" />
+    <Compile Include="Tarjeta\DTOs\TarjetaDto.cs" />
+    <Compile Include="Tarjeta\ITarjetaServicio.cs" />
+    <Compile Include="UnidadMedida\DTOs\UnidadMedidaDto.cs" />
+    <Compile Include="UnidadMedida\IUnidadMedidaServicio.cs" />
+    <Compile Include="Usuario\DTOs\UsuarioDto.cs" />
+    <Compile Include="Usuario\IUsuarioServicio.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aplicacion.Constantes\Aplicacion.Constantes.csproj">
+      <Project>{d4dd37cf-e0ab-4ae0-bec0-2074304c821b}</Project>
+      <Name>Aplicacion.Constantes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio\Dominio.csproj">
+      <Project>{7A1EF938-26CA-485B-ADC5-1DE95BD00EC8}</Project>
+      <Name>Dominio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>
